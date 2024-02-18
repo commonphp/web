@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="phpmd" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/vendor/bin/phpmd" scriptParameters="../../src ansi cleancode,codesize,controversial,design,naming,unusedcode">
+    <method v="2" />
+  </configuration>
+</component>
