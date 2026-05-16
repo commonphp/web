@@ -1,14 +1,9 @@
 {
   "name": "comphp/web",
   "type": "library",
-  "description": "Provides base functionality for web-based applications",
+  "description": "Web application integration layer combining HTTP, routing, actions, views, assets, and runtime support.",
   "license": "MIT",
-  "authors": [
-    {
-      "name": "timothy.mcclatchey",
-      "email": "timothy@commonphp.org"
-    }
-  ],
+  "version": "0.3",
   "autoload": {
     "psr-4": {
       "CommonPHP\\Web\\": "src/"
@@ -16,15 +11,15 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "CommonPHP\\Tests\\Web\\": "tests/"
+      "CommonPHP\\Web\\Tests\\": "tests/"
     }
   },
   "require": {
-    "php": "^8.3"
+    "php": "^8.5",
+    "comphp/runtime": "^0.3"
   },
   "require-dev": {
-    "phpunit/phpunit": "^10.5.9",
-    "phpstan/phpstan": "^1.10.58",
-    "phpmd/phpmd": "^2.13"
+    "phpunit/phpunit": "^13.1",
+    "friendsofphp/php-cs-fixer": "^3.95"
   }
 }

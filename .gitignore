@@ -1,5 +1,6 @@
 /.idea
 /.phpunit.cache
+/legacy
 /vendor
 .php-cs-fixer.php
 composer.lock
