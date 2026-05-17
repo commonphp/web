@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace CommonPHP\Web\Contracts;
 
-abstract class AbstractPage implements PageInterface
+interface PageRendererInterface
 {
 
 }
