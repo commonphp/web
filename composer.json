@@ -16,7 +16,7 @@
   },
   "require": {
     "php": "^8.5",
-    "comphp/runtime": "^0.3",
+    "comphp/runtime": "^0.3.1",
     "comphp/http": "^0.3",
     "comphp/router": "^0.3",
     "comphp/ui": "^0.3"
