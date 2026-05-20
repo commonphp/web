@@ -8,5 +8,8 @@ use RuntimeException;
 
 class WebException extends RuntimeException
 {
-
+    public static function because(string $message): static
+    {
+        return new static($message);
+    }
 }

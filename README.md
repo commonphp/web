@@ -36,6 +36,7 @@ Web dispatch, rendering, route, and response failures should throw package-speci
 
 ## Documentation
 
+- [Documentation index](docs/index.md)
 - [Usage](docs/usage.md)
 - [Testing](TESTING.md)
 - [Contributing](CONTRIBUTING.md)
